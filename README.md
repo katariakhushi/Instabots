@@ -20,23 +20,23 @@ Download the ChromeDriver executable from the official site and update the path 
 Update the username and password variables in the script with your Instagram credentials.
 
 ## Functions
-* 1. Log In
+ 1. Log In
 Logs into your Instagram account.
 
-* 2. Search
+ 2. Search
 Searches for a term and prints the names of Instagram handles (excluding hashtags).
 
-* 3. Open Profile
+ 3. Open Profile
 Searches for and opens a profile by username.
 
-* 4. Follow/Unfollow
+ 4. Follow/Unfollow
  Follow a user: Follow users if not already following.
  Unfollow a user: Unfollow users if currently following.
-* 5. Like/Unlike Posts
+ 5. Like/Unlike Posts
 Like the top 30 posts of a profile: Likes posts if not already liked.
 Unlike the top 30 posts of a profile: Unlikes posts if currently liked.
-* 6. Extract Followers
+ 6. Extract Followers
  Extract usernames of the first 500 followers from a profile.
 Print all followers of a profile that you follow but who don’t follow you.
-* 7. Check Story
+ 7. Check Story
 Checks if the story of a user has been viewed or not.
