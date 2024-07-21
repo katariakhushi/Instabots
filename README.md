@@ -1,6 +1,8 @@
 # Instabots
 ## Overview
 This repository contains a set of Python scripts that automate various tasks on Instagram using Selenium and BeautifulSoup. The bot performs tasks such as logging in, searching profiles, following/unfollowing users, liking/unliking posts, extracting followers, and checking stories. This README provides instructions for setting up and using the bot.
+## Selenium
+Selenium is an open-source tool for automating web browsers, allowing users to simulate interactions like clicking buttons and filling out forms. It supports various browsers and programming languages, making it ideal for automated testing, web scraping, and repetitive tasks. Key components include Selenium WebDriver for direct browser control, Selenium IDE for recording actions, and Selenium Grid for running tests across multiple machines. Selenium helps ensure web applications work consistently across different environments and can speed up testing and data extraction processes.
 
 ## Prerequisites
 * Python: Ensure you have Python 3.6 or later installed.
@@ -28,13 +30,13 @@ Searches for a term and prints the names of Instagram handles (excluding hashtag
 Searches for and opens a profile by username.
 
 * 4. Follow/Unfollow
-** Follow a user: Follow users if not already following.
-** Unfollow a user: Unfollow users if currently following.
+ Follow a user: Follow users if not already following.
+ Unfollow a user: Unfollow users if currently following.
 * 5. Like/Unlike Posts
 Like the top 30 posts of a profile: Likes posts if not already liked.
 Unlike the top 30 posts of a profile: Unlikes posts if currently liked.
 * 6. Extract Followers
-** Extract usernames of the first 500 followers from a profile.
-** Print all followers of a profile that you follow but who don’t follow you.
+ Extract usernames of the first 500 followers from a profile.
+Print all followers of a profile that you follow but who don’t follow you.
 * 7. Check Story
 Checks if the story of a user has been viewed or not.
